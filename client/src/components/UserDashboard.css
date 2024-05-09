@@ -1,0 +1,17 @@
+.column{
+    flex: 1000%;
+    padding: 350px;
+  }
+  
+  .row{
+    display: flex;
+    padding-left: 150px;
+  }
+  
+  .dot{
+    height: 75px;
+    width: 75px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: block;
+  }

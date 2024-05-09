@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+.logo_img{
+  height: 30vh;
+  width: 24vw;
+
+}
+.reset_text{
+  font-weight: 700;
+  font-size:24px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+
+margin: auto;
+  color: #0f172a;
+
+}
+.main_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.text{
+  /* margin: auto; */
+  width: 28%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+  align-items: center;
+  color: #64748b;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}    
+#inp{
+  border-radius: 12px;
+  border: 1px solid #2563eb ;
+  size: large;
+  margin: auto;
+
+  padding: 8px 16px ;
+  position: relative;
+  
+  gap: 12px;
+  width: 23vw;
+  height: 3vh;    
+  
+
+}
+.fa-regular{
+  position: absolute;
+
+font-size: 20px;
+color: #64748b;
+padding-top: 10px;
+  /* left: 10px; */
+}
+
+.btn{
+  margin-top: 29px;
+  background-color: #141416;
+  color: white;
+  padding: 8px;
+  width: 25vw;
+  cursor: pointer;
+  font-weight: 600;
+  height: 6vh;
+  gap: 10px;
+  border-radius: 12px;
+}
+.signin_text{
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 22.4px;
+  align-items: center;
+  color: #2563eb;
+  margin-top: 20px;
+}
+.signup_text{
+
+  margin: auto;
+  text-align: center;
+margin-top: 60px;
+margin-bottom: 100px;
+font-size: 14px;
+line-height: 22.4px;
+
+}
+

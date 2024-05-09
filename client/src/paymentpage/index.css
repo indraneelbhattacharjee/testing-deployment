@@ -1,0 +1,92 @@
+body{
+
+    background-color: #4c4c4c;
+
+}
+.main_div{
+
+    background-color: #4c4c4c;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 60px;
+    /* padding-left: 40px; */
+    
+    
+  
+}
+.logos{
+    border: 1.5px dashed #a09595;
+    width: 80%;
+    padding: 20px;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    line-height: 16px;
+    /* margin: auto;s */
+    margin-top: 20px;
+    height: 8vh;
+    justify-content: space-between;
+}
+.flex_payment{
+
+    width: 20%;
+}
+.all_logos{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 14%;
+    height: 70%;
+
+    border-radius: 52%;
+}
+.credit_details{
+
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background-color: #4c4c4c;
+}
+.table{
+    padding: 10px;
+    border: 2px solid #a09595;
+    width: 80%;
+    font-weight: 500;
+}
+.month_year{
+
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    background-color: #4c4c4c;
+    margin-left: 30px;
+}
+.country{
+
+    background-color: #4c4c4c;
+}
+.btn{
+
+    margin-top: 40px;
+    
+}
+button{
+    width:84%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 7vh;
+}

@@ -1,0 +1,13 @@
+
+.avatar-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.avatar-container Avatar {
+  margin-right: 10px; /* Adjust spacing between Avatar and Typography */
+}
+
+.avatar-container .username {
+  margin-left: 10px; /* Adjust spacing between Avatar and Typography */
+}

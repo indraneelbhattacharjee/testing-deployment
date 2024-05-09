@@ -1,0 +1,256 @@
+{
+    "created": 1714076533.525284,
+    "duration": 5.630637884140015,
+    "exitcode": 0,
+    "root": "/Users/indraneelbhattacharjee/Senior Project/Technogaze/src/Database",
+    "environment": {},
+    "summary": {
+        "passed": 8,
+        "total": 8,
+        "collected": 8
+    },
+    "collectors": [
+        {
+            "nodeid": "",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "dbms_testing.py",
+                    "type": "Module"
+                }
+            ]
+        },
+        {
+            "nodeid": "dbms_testing.py",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "dbms_testing.py::test_insert_user",
+                    "type": "Function",
+                    "lineno": 26
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_query_user_by_email",
+                    "type": "Function",
+                    "lineno": 32
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_update_user_password",
+                    "type": "Function",
+                    "lineno": 39
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_delete_user",
+                    "type": "Function",
+                    "lineno": 47
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_insert_dashboard",
+                    "type": "Function",
+                    "lineno": 54
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_query_dashboard_by_todo",
+                    "type": "Function",
+                    "lineno": 63
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_update_dashboard_todo",
+                    "type": "Function",
+                    "lineno": 72
+                },
+                {
+                    "nodeid": "dbms_testing.py::test_delete_dashboard_entry",
+                    "type": "Function",
+                    "lineno": 83
+                }
+            ]
+        }
+    ],
+    "tests": [
+        {
+            "nodeid": "dbms_testing.py::test_insert_user",
+            "lineno": 26,
+            "outcome": "passed",
+            "keywords": [
+                "test_insert_user",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.44564345800000005,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.17711804200000003,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.05920800000000004,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_query_user_by_email",
+            "lineno": 32,
+            "outcome": "passed",
+            "keywords": [
+                "test_query_user_by_email",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.4405268750000001,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.17654091700000007,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.05828237500000011,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_update_user_password",
+            "lineno": 39,
+            "outcome": "passed",
+            "keywords": [
+                "test_update_user_password",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.43209283300000023,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.25454537499999974,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.058798292000000085,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_delete_user",
+            "lineno": 47,
+            "outcome": "passed",
+            "keywords": [
+                "test_delete_user",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.435340375,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.17614858300000025,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.06086295799999997,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_insert_dashboard",
+            "lineno": 54,
+            "outcome": "passed",
+            "keywords": [
+                "test_insert_dashboard",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.4555552079999998,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.173972542,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.05788579099999991,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_query_dashboard_by_todo",
+            "lineno": 63,
+            "outcome": "passed",
+            "keywords": [
+                "test_query_dashboard_by_todo",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.4265495410000004,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.17503445799999984,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.058917834000000724,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_update_dashboard_todo",
+            "lineno": 72,
+            "outcome": "passed",
+            "keywords": [
+                "test_update_dashboard_todo",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.42845320800000053,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.23609337500000027,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.06291308299999976,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "dbms_testing.py::test_delete_dashboard_entry",
+            "lineno": 83,
+            "outcome": "passed",
+            "keywords": [
+                "test_delete_dashboard_entry",
+                "dbms_testing.py",
+                "Database",
+                ""
+            ],
+            "setup": {
+                "duration": 0.4332011250000001,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 0.22996250000000007,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.058391042000000226,
+                "outcome": "passed"
+            }
+        }
+    ]
+}
